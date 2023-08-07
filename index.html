@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/cc81280c61.js" crossorigin="anonymous"></script>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+  
+    .navbar {
+      background-color: #3a3542;
+      color: aliceblue;
+      width: 100%;
+    }
+
+    ul {
+      margin-left: 25%;
+    }
+
+    #links {
+      color: white;
+     
+    }
+
+    #links:hover {
+      color: red;
+    }
+
+    .carl {
+
+      width: 85px;
+      height: 30px;
+      display: flex;
+
+    }
+
+    .pix {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+
+    }
+
+    .pictrs {
+      margin: auto;
+      width: 85px;
+      height: 50%;
+
+
+
+    }
+
+    .first-img {
+      margin: auto;
+      width: 100%;
+      height: 110vh;
+
+    }
+
+    h2 {
+      /* text-align: center; */
+      font-weight: bolder;
+      font-weight: 300px;
+      margin-top: 70px;
+    }
+
+    .card1 {
+
+      display: flex;
+      justify-content: space-evenly;
+
+
+    }
+
+    .card2 {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    p {
+      color: rgb(131, 122, 122);
+    }
+
+    .icon {
+      margin: auto;
+      background-color: red;
+      border-radius: 80px;
+      width: 50px;
+      height: 50px;
+    }
+
+    .fa-laptop {
+      justify-content: center;
+      margin-left: 15px;
+      margin-top: 18px;
+
+    }
+
+    .comprgm {
+      margin: auto;
+      width: 510px;
+      height: 550px;
+      margin-left: 70px;
+      margin-right: 40px;
+      margin-top: 35px;
+
+
+    }
+
+    .container1 {
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      padding: auto;
+      margin-top: 20px;
+    }
+
+    #Tform {
+      margin-top: 25px;
+      font-weight: bold;
+      margin-top: 55px;
+
+
+    }
+
+    .cont {
+      background-color: black;
+      color: white;
+    }
+
+    .cont:hover {
+      background-color: white;
+    }
+
+    .desgn {
+      background-color: rgb(202, 187, 187);
+      width: 90%;
+      height: 5px;
+      border-radius: 2px;
+      margin-top: 30px;
+     
+    }
+
+    .desgn2 {
+      background-color: #d80650;
+      width: 65%;
+      height: 5px;
+      border-radius: 2px;
+    }
+
+    .second1 {
+      background-color: rgb(202, 187, 187);
+      width: 90%;
+      height: 5px;
+      border-radius: 2px;
+
+
+    }
+
+    .sec1 {
+      background-color: #d80650;
+      width: 83%;
+      height: 5px;
+      border-radius: 2px;
+
+    }
+
+    .lastline {
+      background-color: rgb(202, 187, 187);
+      width: 90%;
+      height: 5px;
+      border-radius: 2px;
+    }
+
+    .last {
+      background-color: #d80650;
+      width: 90%;
+      height: 5px;
+      border-radius: 2px;
+
+    }
+
+    .Train {
+      text-align: center;
+      font-weight: bolder;
+    }
+
+    .Altest {
+      display: flex;
+      color: #d80650;
+      font-weight: 700;
+      justify-content: space-evenly;
+    }
+
+    .test {
+      width: 25%;
+      height: 80%;
+      box-shadow: -3px -3px 3px rgb(145, 142, 142);
+      background-color: antiquewhite;
+      text-align: center;
+    }
+
+    .tstA {
+      background-color: #d80650;
+      margin: auto;
+      color: white;
+      width: 35%;
+      height: 36px;
+      margin-top: 25px;
+
+
+    }
+
+    .tstB {
+      background-color: #d80650;
+      margin: auto;
+      color: white;
+      width: 35%;
+      height: 36px;
+      text-align: center;
+
+
+
+
+    }
+
+    .tstC {
+      background-color: #d80650;
+      margin: auto;
+      color: white;
+      width: 35%;
+      height: 36px;
+    }
+
+    .formbod {
+      border: 2px solid whitesmoke;
+      height: 35%;
+      margin: auto;
+    }
+
+    /* .templ {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+    } */
+
+    .templ p {
+      color: white;
+      margin-left: 50px;
+    }
+
+    .fa-check {
+      color: red;
+
+    }
+    
+
+    /* 
+    
+
+    /* h5{
+        text-align: center;
+        font-weight: bolder;
+       padding-top: 25px;
+      }
+      button{
+        width: 110px;
+        height: 35px;
+        background-color: #d80650;
+        color: white;
+       margin-left: 29px;
+      }
+      .cloud_div{
+       
+
+      } */
+    #ALL {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .button2{
+      position: relative;
+      bottom: 15%;
+      
+    }
+    .jamb_a{
+      margin-top: 35px;
+      text-align: center;
+      
+    }
+
+    button {
+      width: 110px;
+      height: 35px;
+      background-color: #d80650;
+      color: white;
+      align-items: center;
+      margin: 15%;
+      margin-bottom: 25px
+    }
+
+    .prog_lang {
+      color: #e72569;
+      font-size: 20px;
+      text-align: center;
+      background-color: #f7cbda;
+      width: 200px;
+      height: 70px;
+      margin: 15px;
+      font-weight: bolder;
+      padding-top: 20px;
+
+    }
+
+    .cl_lang {
+      color: #d80650;
+      font-weight: bolder;
+      text-align: center;
+      background-color: #f7cbda;
+      width: 200px;
+      height: 70px;
+      padding-top: 10px;
+
+    }
+
+    .Data_lang {
+      color: #d80650;
+      background-color: #f7cbda;
+      font-weight: bolder;
+      text-align: center;
+      width: 200px;
+      height: 70px;
+    }
+
+    .pro_gram {
+      width: 220px;
+      height: 45vh;
+      border: #3a3542;
+
+    }
+    .amin_folder{
+      display: flex;
+      width: 320%;
+      height: 30vh;
+      margin-top: -30px;
+      
+     
+      
+         }
+    .pix_flder{
+     
+      width: 40%;
+      height: 68vh;
+      margin: 10px;
+
+      
+
+    }
+    .parent_foot{
+      display:flex;
+      color: white;
+      width: 100%;
+      height: 100vh;
+      background-color: #111013;
+      margin-top: 15%;
+    }
+    #secondfooter_pix{
+      display: flex;
+      justify-content: center;
+      margin: 25px;
+      width: 40%;
+      height: 85vh;
+      margin-top: 9%;
+    }
+    /* #parent_foot h2{
+      font-weight: bolder;
+      text-align: left;
+      display: flex;
+    } */
+
+/* myown codes */
+.aboutUs{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  height: 90vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* ----------ends------ */
+    .scop {
+      text-align: center;
+      font-weight: bold;
+      margin-top: 50px;
+    }
+    .blog_news{
+      text-align: center;
+
+      
+    }
+    .blog_news.h1{
+      position: fixed;
+      left:0;
+    }
+    .footer_div{
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      background-color: rgb(39, 39, 68);
+      color: white;
+      justify-content: space-evenly;
+      
+    }
+    .last_footer{
+      width: 100%;
+      height: 20vh;
+      background-color: #1a1e53;
+      display: flex;
+      justify-content: space-between;
+      padding: 45px;
+      
+    }
+    .lines{
+      width: 80px;
+      height: 3px;
+      background-color: white;
+      border-radius: 5px;
+    }
+    .teem{
+      margin-right: 70px;
+    }
+    .info{
+      margin-top: 50px;
+
+    }
+   
+    .fa-solid{
+      color: #d80650;
+    }
+    .card{
+      width: 18rem;
+    }
+    #conhov{
+      width: 18rem
+
+    }
+    #bush{
+      text-align: center;
+    }
+    
+
+
+
+    @media (min-width:280px) and (max-width:767px){
+      .first-img{
+       width: 100%;
+       height: 150px
+       }
+       #cardmob{
+        display: grid;
+        justify-content: center;
+        gap: 35px;
+
+       }
+       .parent_foot{
+        display: grid;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        margin-top: 60%;
+       }
+       #cardmob2{
+        display: grid;
+        justify-content: center;
+        gap: 35px;
+
+       }
+       .container1{
+        display: grid;
+        justify-content: center;
+       }
+       .comprgm{
+        width: 90%;
+        height: 60%;
+        
+        
+       }
+       .comprgm img{
+       margin-right: 90px;
+       }
+       #img_comp{
+        margin-left: -90px;
+       }
+       .formbod{
+        display: grid;
+        justify-content: center;
+        margin: 16px;
+        transform: translateY(-180px);
+       }
+       .Train{
+        transform: translateY(-450%);
+       }
+       #ALL{
+        display: grid;
+        justify-content: center;
+        margin: 30px;
+        transform: translateY(-22%);
+       }
+       .parent_foot{
+        display: grid;
+       }
+       .clowd{
+        display: grid;
+        margin-top: 40%;
+       }
+       #secondfooter_pix{
+        display: grid;
+        width: 91%;
+        height: 100%;
+        margin-left: 9px;
+        
+       }
+       .jamb_a{
+        display: grid;
+        
+       }
+       #CBT{
+        font-size: 12px;
+       }
+       .button2{
+        margin: 30%;
+        
+        
+       }
+       .info{
+        display: grid;
+        
+       }
+       .last_footer{
+        display: grid;
+       }
+       .footer_div{
+        display: grid;
+        font-size: 15px;
+       }
+       .contact_add{
+        font-size: 10px;
+       }
+       
+       .aboutUs{
+        display: grid;
+        justify-content: center;
+        margin: 10px;
+        margin-top: -95%;
+       }
+       
+    @keyframes animation {
+      0%{
+        transform: translatex(100%);
+        opacity: 0;
+      }
+      100%{
+        transform: translatex(0%);
+        opacity: 1;
+      }
+      
+    }
+    .amin_folder{
+      animation-name: animation;
+      animation-duration: 6s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
+
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div>
+        <img src="./images/logo.png" alt="">
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a id="links" class="nav-link" href="#">Home ></a>
+          </li>
+          <li class="nav-item">
+            <a id="links" class="nav-link" href="#">Services ></a>
+          </li>
+          <li class="nav-item">
+            <a id="links" class="nav-link" href="#">Blog ></a>
+          </li>
+          <li class="nav-item">
+            <a id="links" class="nav-link" href="#">About ></a>
+          </li>
+          <li class="nav-item">
+            <a id="links" class="nav-link" href="#">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </nav>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="first-img" src="./images/banner_8.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="first-img" src="./images/lockscreen-bg.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="first-img" src="./images/1.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    </div>
+  </div><br><br>
+  <div class="pix">
+
+    <img class="pictrs" src="./images/firebase.png" alt="">
+    <img class="pictrs" src="./images/Google-flutter.png" alt="">
+    <img class="pictrs" src="./images/Microsoft_Azure.png" alt="">
+    <img class="pictrs" src="./images/Microsoft.png" alt="">
+    <img class="pictrs" src="./images/office1.png" alt="">
+    <img class="pictrs" src="./images/php.png" alt="">
+  </div>
+
+
+  </div>
+
+  <h2 id="bush">OUR BUSINESS</h2>
+  <div class="card1" id="cardmob">
+
+    <div id="conhov" class="card">
+
+      <div class="card-body cont">
+        <div class="icon">
+          <i class="fa-solid fa-laptop"></i>
+        </div>
+
+
+        <h6 class="card-subtitle mb-2 text-muted" id="bush">CLOUD COMPUTING</h6>
+        <p class="card-text">Acees high quality cloud computing power.<br>Industry Leading Security.Agile<br>Reliable
+          Service.</p>
+
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body cont">
+        <div class="icon">
+          <i class="fa-solid fa-laptop"></i>
+        </div>
+
+        <h6 class="card-subtitle mb-2 text-muted" id="bush">ICT TRAINING</h6>
+        <p class="card-text">CloudEdge offers computer IT Training and Certifications. We are authorized training
+          partners for many vendors including Microsoft, Cisco, Adobe, CompTIA & more..</p>
+
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body cont">
+        <div class="icon">
+          <i class="fa-solid fa-laptop"></i>
+        </div>
+
+        <h6 class="card-subtitle mb-2 text-muted" id="bush">CBT CENTER</h6>
+        <p class="card-text">Our CBT centre is equipped with over 500 thin client workstation, connected to run exam . A
+          pleasant atmosphere equipped with air conditions and security check-in facilities..</p>
+
+      </div>
+    </div>
+  </div><br>
+
+
+  <div class="card2" id="cardmob2">
+    <div class="card">
+      <div class="card-body cont">
+        <div class="icon">
+          <i class="fa-solid fa-laptop"></i>
+        </div>
+
+        <h6 class="card-subtitle mb-2 text-muted" id="bush">BUSINESS CENTER</h6>
+        <p class="card-text">Our business center provides a variety of computer services and facilities. Air conditioned
+          for your comfort and conveniently furnitured, we are open at all hours, efficiency guaranteed and always at
+          your service..</p>
+
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body cont">
+        <div class="icon">
+          <i class="fa-solid fa-laptop"></i>
+        </div>
+
+        <h6 class="card-subtitle mb-2 text-muted" id="bush">ICT Service</h6>
+        <p class="card-text">We offer bespoke IT solutions that helps in resolving challenges across a wide spectrum of
+          technologies, ICT Solutions with local content for primary, secondary and tertiary institutions in Nigeria..
+        </p>
+
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body cont">
+        <div class="icon">
+          <i class="fa-solid fa-laptop"></i>
+        </div>
+
+        <h6 class="card-subtitle mb-2 text-muted" id="bush">IT Consulting & Advisory</h6>
+        <p class="card-text">We support organisations to make more effective use of technology. We also help in
+          evaluating current technology and related policies, assess staff technology knowledge and support needs.</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="container1">
+    <div id="img_comp">
+      <img class="comprgm" src="./images/Screenshot_20230705-121023.png" alt="">
+    </div>
+    <div class="formbod">
+      <h6 id="Tform">Transform your digital<br> WorkFlow,<br>Be Productive, Reduce Risk<br><br></h6>
+      <h6>We develop/design, we manage, we maintain.....Focus on being<br> productive.</h6><br>
+      <h6>Development</h6>
+      <div class="desgn">
+        <div class="desgn2">
+
+        </div>
+
+
+      </div><br>
+      <h6>Design</h6>
+      <div class="second1">
+        <div class="sec1">
+
+        </div>
+
+
+      </div><br>
+      <h6>Marketing</h6>
+      <div class="lastline">
+        <div class="last">
+
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+  <div class="Train">
+    <h1>TRAINING</h1>
+
+  </div><br><br>
+  
+  <div id="ALL">
+    <div class="pro_gram">
+      <h5 class="prog_lang">PROGRAMMING</h5>
+      <P>Learn programming and coding in a<br> confortable class environment get skilled in front end development,
+        Android basics, iOS apps, and full stack development. Build expertise in Javascript.</P>
+      <div><button>view courses</button></div>
+    </div>
+    <div class="clowd">
+      <h5 class="cl_lang">CLOUD<br> COMPUTING</h5>
+      <p>Learn from basics to advance in cloud<br> computing, exploring public cloud,<br> private cloud, hybrid cloud,
+        multicloud<br> and other topics.</p>
+      <div><button>view courses</button></div>
+    </div>
+    <div class="data_manage">
+      <h5 class="Data_lang">DATA<br> MANAGEMENT</h5>
+      <p>Whether you're interested in learning new<br> types of database management ... tools<br> like MySQL, MongoDB,
+        or Oracle<br> Database, CloudEdge have you covered.</p>
+      <div><button>view courses</button></div>
+    </div>
+  </div><br><br>
+<!-- about us -->
+<div class="aboutUs">
+      <div></div>
+      <div>
+        <h1 style="margin-top: 30px;">About us</h1>
+        <p style="font-size: 12px; color: white;">Cloudedge Technologies is an authorized training partner for many vendors <br> including Mirosoft, Cisco, and more. At cloudedge we provide a variety of <br> computer services and facilities with air conditioned rooms.</p>
+        <!-- list for checkboxes -->
+        <!-- <div class="fonticons">
+          
+        </div>
+        <div></div>
+        <div></div>
+        <div></div> -->
+
+       <p><span><i class="fa-solid fa-check"></i></span></i>JAMB CBT ACCREDITED CENTER: We are JAMB CBT Accredited center<br> both for examination and for registration.</p>
+        </p><span><i class="fa-solid fa-check"></i></span>CLOUD COMPUTING SERVICES</p>
+        <p><span><i class="fa-solid fa-check"></i></span>ICT TRAINING CENTER</p>
+        <p><span><i class="fa-solid fa-check"></i></span>COOPERATE BUSINESS CENTER</p>
+         
+      </div>
+</div>
+  <!-- footer -->
+  <div class="scop">
+    <h5>BUSINESS SCOPE</h5>
+  </div><br><br>
+<!-- animation -->
+    <div class="amin_folder">
+       <img class="pix_flder" src="./images/banner_5.jpg" alt="">
+       <img class="pix_flder" src="./images/banner_6.jpg" alt="">
+       <img class="pix_flder" src="./images/banner_7.jpg" alt="">
+
+    </div><br><br><br>
+
+            <!-- second footer -->
+            <div class="parent_foot">
+              <img id="secondfooter_pix" src="./images/Screenshot_20230712-024231.png" alt="">
+              <div class="jamb_a">
+                <h2 >Jamb Accredited <br> Examination/Registration <br> Center</h2>
+                <h4 id="CBT">Our CBT centre is equipped with over 500 thin<br> client  workstation, connected to run exam<br> simultaneously with industry type servers. We<br> have highly trained and qualified in- house I.T Team<br> to support and maintain our CBT infrastructures. <br><br>
+
+                  A pleasant atmosphere equipped with air conditions and <br> security check-in facilities.</h4>
+                  <button class="button2">Read more</button>
+              </div>
+            </div>
+            <!-- Latest news from blog -->
+            <div class="blog_news">
+              
+              
+              <h2>Latest news from blog</h2>
+              <h1>Read me</h1>
+              <img src="./images/1.jhjc" alt="">
+
+
+            </div>
+            <!-- last blue div -->
+            <div class="footer_div">
+              <div class="info">
+                Contact Us<br><br>
+                <div class="lines">
+
+                </div>
+                <div class="contact_add">
+                  <h5><span><i class="fa-solid fa-phone-volume" ></i></span>   <bold>Mobile</bold>:<br>Phone:(+234)08035354501,08035112627.<br>08133703268</h5><br>
+                <h5><span><i class="fa-solid fa-phone-volume" ></i></span>    Phone:</h5><br>Phone:08071109322<br>
+                <h5><span><i class="fa-regular fa-envelope" ></i></span>      Email:<br>cloudedge@cloudedge.ng</h5>
+                <h5><span><i class="fa-solid fa-location-dot" ></i></span>    Address:Rivers State<br>#107Victory Plaza by YKC Woji,Port Harcourt,<br>Rivers State</h5>
+                <h5><span><i class="fa-solid fa-location-dot" ></i></span>    Address:Lagos State<br>km5 Addo-Ajah road beside Enyo filling<br>station before infinity Estate,Aja,Lagos</h5>
+                  
+                </div>
+                
+              </div>
+              <div class="info">
+                OUR PRODUCT
+                <div class="lines">
+
+                </div>
+                <div class="contact_add">
+                  <h5><span><i class="fa-solid fa-angles-right"></i></span>   CBT installation & Maintainance</h5>
+                <h5><span><i class="fa-solid fa-angles-right"></i></span>   Cloud Hosting & Maintainance</h5>
+                <h5><span><i class="fa-solid fa-angles-right"></i></span>   Web Development & Maintainance</h5>
+                <h5><span><i class="fa-solid fa-angles-right"></i></span>   App Development & Maintainance</h5>
+                <h5><span><i class="fa-solid fa-angles-right"></i></span>   Software Development & Maintainance</h5>
+                <h5><span><i class="fa-solid fa-angles-right"></i></span>   ICT service & training</h5>
+
+                </div>
+                
+              </div>
+              <div class="info">
+                QUICK NAVIGATION
+                <div class="lines">
+
+                </div>
+                <div class="contact_add">
+                  <h5><span><i class="fa-solid fa-angles-right"></i></span>   Home</h5>
+                <h5><span><i class="fa-solid fa-angles-right"></i></span>   Blog</h5>
+                <h5><span><i class="fa-solid fa-angles-right"></i></span>   About Us</h5>
+                <h5><span><i class="fa-solid fa-angles-right"></i></span>   Contact Us</h5>
+                </div>
+                
+              </div>
+
+
+            </div>
+            <!-- last footer -->
+            <div class="last_footer">
+              <p>(C) Copyright CloudEdge Technologies</p>
+              <div></div>
+              <div class="teem">
+                <p>Terms of Use</p>
+              </div>
+
+            </div>
+            
+           
+
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
